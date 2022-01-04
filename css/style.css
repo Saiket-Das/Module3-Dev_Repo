@@ -1,0 +1,103 @@
+header{
+    text-align: center;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 25px;
+}
+.orange-color{
+    color: orange;
+}
+
+.flex-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.my-profile{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-area{
+    background-image: url(images/dream-big.png);
+    background-repeat: no-repeat;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+}
+
+.half-width img{
+    width: 40%;
+}
+
+.half-width{
+    width:50%;
+    border: 10px 30px;
+    
+}
+
+.hireme-button{
+    text-decoration: none;
+    background-image: linear-gradient(orangered, orange);
+    opacity: 90%;
+    color: whitesmoke;
+    font-weight: 500;
+    background-color: rgb(255, 166, 0);
+    padding: 2px 8px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.my-cv{
+    text-decoration: none;
+    background-image: linear-gradient(orangered, orange);
+    opacity: 90%;
+    color: whitesmoke;
+    font-weight: 500;
+    background-color: rgb(255, 166, 0);
+    padding: 2px 8px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.experience-item{
+    width: 50%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    box-shadow: 5px 5px 50px black;
+}
+
+
+
+#border-left1{
+    border-left: 7px solid;
+    border-image: linear-gradient(#0051ff, #4cbdcc) 30;
+    border-image-slice: 1;
+    
+}
+
+#border-left2{
+    border-left: 7px solid;
+    border-image: linear-gradient(#ff5100, #af9541) 30;
+    border-image-slice: 1;
+    
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
